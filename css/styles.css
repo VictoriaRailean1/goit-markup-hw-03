@@ -163,7 +163,7 @@ img {
 }
 .footer-logo {
   display: inline-block;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .header-contact .link {
@@ -440,6 +440,10 @@ address {
   padding-bottom: 60px;
   text-align: left;
 }
+.footer-address {
+  display: inline-block;
+  flex-basis: 231px;
+}
 .link-footer {
   line-height: 1.714;
   letter-spacing: 0.03em;
@@ -453,5 +457,6 @@ address {
 }
 
 .footer-item {
-  padding-bottom: 9px;
+  box-sizing: border-box;
+  margin-bottom: 9px;
 }
